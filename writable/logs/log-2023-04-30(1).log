@@ -1,0 +1,227 @@
+ERROR - 2023-04-30 20:47:45 --> Error connecting to the database: Unknown database 'cafein'
+CRITICAL - 2023-04-30 20:47:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'cafein'
+#0 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\mewtwo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\mewtwo\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\mewtwo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\mewtwo\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mewtwo\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-30 20:51:09 --> Undefined variable $totalTime
+#0 C:\xampp\htdocs\mewtwo\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\mewtwo\system\Debug\Toolbar.php(497): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mewtwo\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\mewtwo\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\mewtwo\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\mewtwo\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-30 20:51:12 --> Table 'mewwtwo.pembelian' doesn't exist
+CRITICAL - 2023-04-30 20:51:12 --> Table 'mewwtwo.pembelian' doesn't exist
+#0 C:\xampp\htdocs\mewtwo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\mewtwo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mewtwo\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mewtwo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\mewtwo\app\Controllers\Laporan.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanSemua()
+#8 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mewtwo\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-30 20:52:44 --> Undefined variable $totalTime
+#0 C:\xampp\htdocs\mewtwo\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\mewtwo\system\Debug\Toolbar.php(497): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mewtwo\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\mewtwo\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\mewtwo\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\mewtwo\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-30 20:55:12 --> Table 'mewwtwo.pembelian' doesn't exist
+CRITICAL - 2023-04-30 20:55:12 --> Table 'mewwtwo.pembelian' doesn't exist
+#0 C:\xampp\htdocs\mewtwo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\mewtwo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mewtwo\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mewtwo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\mewtwo\app\Controllers\Laporan.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanSemua()
+#8 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mewtwo\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-30 20:56:25 --> Table 'mewwtwo.pembelian' doesn't exist
+CRITICAL - 2023-04-30 20:56:25 --> Table 'mewwtwo.pembelian' doesn't exist
+#0 C:\xampp\htdocs\mewtwo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\mewtwo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mewtwo\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mewtwo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\mewtwo\app\Controllers\Laporan.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanSemua()
+#8 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mewtwo\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-30 20:57:44 --> Table 'mewwtwo.pembelian' doesn't exist
+CRITICAL - 2023-04-30 20:57:44 --> Table 'mewwtwo.pembelian' doesn't exist
+#0 C:\xampp\htdocs\mewtwo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\mewtwo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mewtwo\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mewtwo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\mewtwo\app\Controllers\Laporan.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanSemua()
+#8 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mewtwo\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-30 20:57:58 --> Table 'mewwtwo.pembelian' doesn't exist
+CRITICAL - 2023-04-30 20:57:58 --> Table 'mewwtwo.pembelian' doesn't exist
+#0 C:\xampp\htdocs\mewtwo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\mewtwo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mewtwo\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mewtwo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\mewtwo\app\Controllers\Laporan.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanSemua()
+#8 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mewtwo\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-30 20:58:04 --> Table 'mewwtwo.pembelian' doesn't exist
+CRITICAL - 2023-04-30 20:58:04 --> Table 'mewwtwo.pembelian' doesn't exist
+#0 C:\xampp\htdocs\mewtwo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\mewtwo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mewtwo\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mewtwo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\mewtwo\app\Controllers\Laporan.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#8 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mewtwo\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-30 20:58:13 --> Table 'mewwtwo.pembelian' doesn't exist
+CRITICAL - 2023-04-30 20:58:13 --> Table 'mewwtwo.pembelian' doesn't exist
+#0 C:\xampp\htdocs\mewtwo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\mewtwo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mewtwo\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mewtwo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\mewtwo\app\Controllers\Laporan.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#8 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mewtwo\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-30 20:58:16 --> Table 'mewwtwo.pembelian' doesn't exist
+CRITICAL - 2023-04-30 20:58:16 --> Table 'mewwtwo.pembelian' doesn't exist
+#0 C:\xampp\htdocs\mewtwo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\mewtwo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mewtwo\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mewtwo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\mewtwo\app\Controllers\Laporan.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#8 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mewtwo\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-30 20:58:19 --> Table 'mewwtwo.pembelian' doesn't exist
+CRITICAL - 2023-04-30 20:58:19 --> Table 'mewwtwo.pembelian' doesn't exist
+#0 C:\xampp\htdocs\mewtwo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\mewtwo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mewtwo\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mewtwo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\mewtwo\app\Controllers\Laporan.php(73): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#8 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mewtwo\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-30 20:58:26 --> Table 'mewwtwo.pembelian' doesn't exist
+CRITICAL - 2023-04-30 20:58:26 --> Table 'mewwtwo.pembelian' doesn't exist
+#0 C:\xampp\htdocs\mewtwo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\mewtwo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mewtwo\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mewtwo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\mewtwo\app\Controllers\Laporan.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanSemua()
+#8 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mewtwo\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-30 20:58:33 --> Table 'mewwtwo.pembelian' doesn't exist
+CRITICAL - 2023-04-30 20:58:33 --> Table 'mewwtwo.pembelian' doesn't exist
+#0 C:\xampp\htdocs\mewtwo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\mewtwo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mewtwo\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mewtwo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\mewtwo\app\Controllers\Laporan.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanSemua()
+#8 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mewtwo\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-30 20:58:41 --> Table 'mewwtwo.pembelian' doesn't exist
+CRITICAL - 2023-04-30 20:58:41 --> Table 'mewwtwo.pembelian' doesn't exist
+#0 C:\xampp\htdocs\mewtwo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\mewtwo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mewtwo\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mewtwo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\mewtwo\app\Controllers\Laporan.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanSemua()
+#8 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mewtwo\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-30 20:58:48 --> Table 'mewwtwo.pembelian' doesn't exist
+CRITICAL - 2023-04-30 20:58:48 --> Table 'mewwtwo.pembelian' doesn't exist
+#0 C:\xampp\htdocs\mewtwo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\mewtwo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mewtwo\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mewtwo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\mewtwo\app\Controllers\Laporan.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanSemua()
+#8 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mewtwo\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-30 20:59:05 --> Table 'mewwtwo.pembelian' doesn't exist
+CRITICAL - 2023-04-30 20:59:05 --> Table 'mewwtwo.pembelian' doesn't exist
+#0 C:\xampp\htdocs\mewtwo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\mewtwo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\mewtwo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mewtwo\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mewtwo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\mewtwo\app\Controllers\Laporan.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanSemua()
+#8 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\mewtwo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mewtwo\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

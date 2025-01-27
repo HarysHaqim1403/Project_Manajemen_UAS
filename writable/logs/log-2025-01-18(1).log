@@ -1,0 +1,148 @@
+CRITICAL - 2025-01-18 11:19:35 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\selversuas\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\selversuas\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\selversuas\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\selversuas\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-01-18 11:20:19 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\selversuas\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\selversuas\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\selversuas\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\selversuas\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-01-18 11:20:20 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\selversuas\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\selversuas\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\selversuas\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\selversuas\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2025-01-18 04:20:33 --> Error connecting to the database: Unknown database 'mewwtwo'
+CRITICAL - 2025-01-18 04:20:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'mewwtwo'
+#0 C:\xampp\htdocs\selversuas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\selversuas\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\selversuas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\selversuas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\selversuas\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\selversuas\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\selversuas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\selversuas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\selversuas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-18 04:22:40 --> Undefined index: deskripsi
+#0 C:\xampp\htdocs\selversuas\app\Views\dashboard.php(314): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 314, Array)
+#1 C:\xampp\htdocs\selversuas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\selversuas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\selversuas\system\Common.php(1097): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\selversuas\app\Controllers\Dashboard.php(33): view('dashboard', Array)
+#5 C:\xampp\htdocs\selversuas\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\selversuas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\selversuas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\selversuas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-18 04:22:43 --> Undefined index: deskripsi
+#0 C:\xampp\htdocs\selversuas\app\Views\dashboard.php(314): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 314, Array)
+#1 C:\xampp\htdocs\selversuas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\selversuas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\selversuas\system\Common.php(1097): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\selversuas\app\Controllers\Dashboard.php(33): view('dashboard', Array)
+#5 C:\xampp\htdocs\selversuas\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\selversuas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\selversuas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\selversuas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-18 04:27:24 --> Undefined index: deskripsi
+#0 C:\xampp\htdocs\selversuas\app\Views\dashboard.php(351): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 351, Array)
+#1 C:\xampp\htdocs\selversuas\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\selversuas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\selversuas\system\Common.php(1097): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\selversuas\app\Controllers\Dashboard.php(33): view('dashboard', Array)
+#5 C:\xampp\htdocs\selversuas\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\selversuas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\selversuas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\selversuas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-18 19:00:51 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 G:\XAMPP\htdocs\majujayauas\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 G:\XAMPP\htdocs\majujayauas\index.php(28): require('G:\\XAMPP\\htdocs...')
+#4 {main}
+ERROR - 2025-01-18 12:01:12 --> Error connecting to the database: Unknown database 'majujaya'
+CRITICAL - 2025-01-18 12:01:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'majujaya'
+#0 G:\XAMPP\htdocs\majujayauas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\XAMPP\htdocs\majujayauas\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\XAMPP\htdocs\majujayauas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\XAMPP\htdocs\majujayauas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 G:\XAMPP\htdocs\majujayauas\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->findAll()
+#5 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\XAMPP\htdocs\majujayauas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-18 12:40:04 --> Undefined variable: konsumen
+#0 G:\XAMPP\htdocs\majujayauas\app\Views\dashboard.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\XAMPP\\htdocs...', 300, Array)
+#1 G:\XAMPP\htdocs\majujayauas\system\View\View.php(214): include('G:\\XAMPP\\htdocs...')
+#2 G:\XAMPP\htdocs\majujayauas\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\XAMPP\htdocs\majujayauas\system\Common.php(1097): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 G:\XAMPP\htdocs\majujayauas\app\Controllers\Dashboard.php(33): view('dashboard', Array)
+#5 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\XAMPP\htdocs\majujayauas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-18 12:49:11 --> Invalid file: antrian.php
+#0 G:\XAMPP\htdocs\majujayauas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('antrian.php')
+#1 G:\XAMPP\htdocs\majujayauas\system\Common.php(1097): CodeIgniter\View\View->render('antrian', Array, true)
+#2 G:\XAMPP\htdocs\majujayauas\app\Controllers\Antrian.php(22): view('antrian')
+#3 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(824): App\Controllers\Antrian->index()
+#4 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#5 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\XAMPP\htdocs\majujayauas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-01-18 12:51:52 --> Class 'App\Models\AntrianModel' not found
+#0 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#1 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\XAMPP\htdocs\majujayauas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-01-18 12:52:34 --> Class 'App\Controllers\AntrianModel' not found
+#0 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#1 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\XAMPP\htdocs\majujayauas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-01-18 12:52:36 --> Class 'App\Controllers\AntrianModel' not found
+#0 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(801): App\Controllers\Dashboard->__construct()
+#1 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\XAMPP\htdocs\majujayauas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-01-18 12:55:07 --> Class 'App\Models\AntrianModel' not found
+#0 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(801): App\Controllers\Laporan->__construct()
+#1 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\XAMPP\htdocs\majujayauas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-01-18 12:57:46 --> Undefined property: App\Controllers\Dashboard::$antrianModel
+#0 G:\XAMPP\htdocs\majujayauas\app\Controllers\Dashboard.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\XAMPP\\htdocs...', 48, Array)
+#1 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(824): App\Controllers\Dashboard->tambahPesanan()
+#2 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\XAMPP\htdocs\majujayauas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-18 12:57:50 --> Undefined property: App\Controllers\Dashboard::$antrianModel
+#0 G:\XAMPP\htdocs\majujayauas\app\Controllers\Dashboard.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\XAMPP\\htdocs...', 48, Array)
+#1 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(824): App\Controllers\Dashboard->tambahPesanan()
+#2 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\XAMPP\htdocs\majujayauas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-18 13:29:21 --> Undefined property: App\Controllers\Dashboard::$antrianModel
+#0 G:\XAMPP\htdocs\majujayauas\app\Controllers\Dashboard.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'G:\\XAMPP\\htdocs...', 48, Array)
+#1 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(824): App\Controllers\Dashboard->tambahPesanan()
+#2 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 G:\XAMPP\htdocs\majujayauas\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\XAMPP\htdocs\majujayauas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
